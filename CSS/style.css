@@ -139,7 +139,6 @@ img {
 
 .project:hover img {
     transform: scale(1.5);
-    
 }
 
 .project-overlay {
@@ -149,14 +148,13 @@ img {
 	right: 0;
 	bottom: 0; 
 	left: 0;
-	
-
+	padding-left: 20px;
+    padding-right: 20px;
 	display: flex; /* For centering text inside .photo-overlay */
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
     background: rgba(0,0,0, .5);
-    
     opacity: 0;
 	transition: opacity .5s;
 }
@@ -172,12 +170,18 @@ img {
 
 footer {
     padding: 2em 0 0;
-    height: 400px;
+    height: 350px;
     background-color: #fff;
     margin-top: 3.5em;
     position: relative; 
-    margin-bottom: 0;
+    margin-bottom:1.75em;
     color: #343434;
+}
+
+#contact {
+    font-size: 2em;
+    margin-bottom: 25px;
+    text-decoration: underline;
 }
 
 .main-footer ul {
@@ -228,7 +232,6 @@ hr {
     border-top: 1px solid rgb(177, 177, 177);
     width: 90%;
 }
-
 
 .footer-nav {
     display: none;
@@ -281,18 +284,15 @@ hr {
     .card {
         flex: 1 46%; 
     } 
-
-    header {
-        height: 100vh;
-    }
 }
 
 @media (min-width: 768px) {
     .main-content {
         width: 90%;
-        max-width: 1000px;
+        max-width: 1300px;
         margin-left: auto;
         margin-right: auto; 
+        padding: 0 10px 0 10px;
     } 
 
     .intro {
@@ -301,10 +301,6 @@ hr {
 
     .card {
         flex-basis: 40%;
-    }
-
-    header {
-        height: 100vh;
     }
 }
 
@@ -315,10 +311,6 @@ hr {
 
     .card {
         flex-basis: 31.33333%; 
-    }
-
-    header {
-        height: 100vh;
     }
 }
 

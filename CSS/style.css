@@ -53,7 +53,9 @@ p {
 }
 
 header {
-    background: linear-gradient( #343434, transparent 43%), url("../images/desk.jpg") no-repeat center center;
+    background: linear-gradient( #5a5a5a, transparent 40%),
+                linear-gradient(0deg, #fff, transparent 40%),
+                url("../images/desk.jpg") no-repeat center center;
     background-size: cover;  
     background-position: 27%;
     height:100vh;

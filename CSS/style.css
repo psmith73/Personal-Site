@@ -425,3 +425,9 @@ hr {
     }
 }
 
+@media (min-width: 1500px) {
+    .icon {
+        margin-top: 7%;
+    }
+}
+

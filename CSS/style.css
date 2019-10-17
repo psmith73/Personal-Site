@@ -326,12 +326,6 @@ hr {
     width: 90%;
 }
 
-.footer-nav {
-    display: none;
-    /* width: 0;
-    height: 0; */
-}
-
 .footer-name {
     float: left;
     padding-top: 25px;

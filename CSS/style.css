@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -98,11 +100,11 @@ header p {
 }
 
 #projects {
-    padding: 2em 0 1em 0;
+    padding: 2em 0 0.5em 0;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1.1em;
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 
 .main-content {

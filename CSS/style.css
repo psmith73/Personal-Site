@@ -37,7 +37,7 @@ p {
     
 .main-nav li {
     display: inline-block;
-    margin: 0 0.65em; 
+    margin: 0 0.35em; 
 }
 
 .main-nav a {
@@ -386,6 +386,10 @@ hr {
 
     #projects {
         font-size: 2em;
+    }
+
+    .main-nav li {
+        margin: 0 0.65em; 
     }
 }
 

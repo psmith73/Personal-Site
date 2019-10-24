@@ -376,7 +376,7 @@ hr {
     clear: both;
 }
 
-.hover {
+.hover_effect {
     -webkit-user-select: none;
     -webkit-touch-callout: none;
 }

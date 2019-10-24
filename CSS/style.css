@@ -332,6 +332,10 @@ footer {
     color: #deb887;
 }
 
+.phone {
+    visibility: hidden;
+}
+
 hr {
     border-top: 1px solid #fff;
     width: 90%;

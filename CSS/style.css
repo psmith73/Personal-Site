@@ -104,11 +104,12 @@ header p {
 }
 
 #projects {
-    margin: 2em auto 0.5em auto;
+    padding: 2em 0 0.5em 0;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1.1em;
     font-size: 1.5em;
+    margin-left: 5%;
 }
 
 .main-content {
@@ -400,6 +401,7 @@ hr {
 
     #projects {
         font-size: 2em;
+        margin-left: 0;
     }
 
     .main-nav li {

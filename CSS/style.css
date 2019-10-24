@@ -93,6 +93,10 @@ header p {
     color: #5a5a5a;
 }
 
+.secondp {
+    visibility: hidden;
+}
+
 .icon {
     color: #5a5a5a;
     font-size: 2.5em;
@@ -389,6 +393,10 @@ hr {
 
     .inner {
         padding: 0.5em 1em;
+    }
+
+    .secondp {
+        visibility: visible ;
     }
 
     #projects {

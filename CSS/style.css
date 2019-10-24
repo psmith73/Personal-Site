@@ -28,7 +28,7 @@ p {
 }
 
 .inner {
-    padding: 0.5em 1em; 
+    padding: 0.5em 0.5em; 
 }
 
 .main-nav {
@@ -79,7 +79,7 @@ header p {
 .intro {
     margin: auto;
     padding: 1em 1em 0 1em; 
-    width: 80%;
+    width: 90%;
 }
     
 .intro p {
@@ -98,7 +98,7 @@ header p {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1.1em;
-    font-size: 2em;
+    font-size: 1.25em;
 }
 
 .main-content {
@@ -378,6 +378,14 @@ hr {
 
     .icon {
         margin-top: 7%;
+    }
+
+    .inner {
+        padding: 0.5em 1em;
+    }
+
+    #projects {
+        font-size: 2em;
     }
 }
 

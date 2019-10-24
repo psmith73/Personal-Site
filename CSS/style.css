@@ -213,7 +213,8 @@ img {
    transform-origin: 0 0;  
 }
 
-.project:hover img {
+.project:hover img,
+.project.hover_effect img {
     transform: scale(1.5);
 }
 
@@ -235,14 +236,15 @@ img {
 	transition: opacity .5s;
 }
 
-.project-overlay:hover {
+.project-overlay:hover,
+.project-overlay.hover_effect {
 	opacity: 1;
 }
 
 .project-overlay h3 {
     text-transform: uppercase;
     font-size: 1.3em;
-    letter-spacing: .2em;
+    letter-spacing: .2em; 
     line-height: 1.25em;
     margin-top: .85em;
     margin-bottom: .5em;
@@ -374,6 +376,11 @@ hr {
     clear: both;
 }
 
+.hover {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 575px) {
@@ -424,7 +431,6 @@ hr {
 
     .card {
         flex-basis: 48%;
-
     }
 
     .icon {

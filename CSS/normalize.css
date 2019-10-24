@@ -405,7 +405,7 @@
   /**
    * List styles
    */
-  ul, ol {
+  ul, ol, li {
     list-style-type: none;
     padding: 0;
     margin: 0; }

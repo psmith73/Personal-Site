@@ -213,8 +213,7 @@ img {
    transform-origin: 0 0;  
 }
 
-.project:hover img,
-.project.hover_effect img {
+.project:hover img {
     transform: scale(1.5);
 }
 
@@ -236,15 +235,14 @@ img {
 	transition: opacity .5s;
 }
 
-.project-overlay:hover,
-.project-overlay.hover_effect {
+.project-overlay:hover {
 	opacity: 1;
 }
 
 .project-overlay h3 {
     text-transform: uppercase;
     font-size: 1.3em;
-    letter-spacing: .2em; 
+    letter-spacing: .2em;
     line-height: 1.25em;
     margin-top: .85em;
     margin-bottom: .5em;
@@ -374,11 +372,6 @@ hr {
     content: " ";
     display: table;
     clear: both;
-}
-
-.hover_effect {
-    -webkit-user-select: none;
-    -webkit-touch-callout: none;
 }
 
 /* MEDIA QUERIES */
